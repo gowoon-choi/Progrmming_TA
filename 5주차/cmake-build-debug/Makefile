@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/gounchoi/Desktop/동대생최고운/3학년1학기/기초프로그래밍_조교/Progrmming_TA/4주차
+CMAKE_SOURCE_DIR = /Users/gounchoi/Desktop/동대생최고운/3학년1학기/기초프로그래밍_조교/Progrmming_TA/5주차
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/gounchoi/Desktop/동대생최고운/3학년1학기/기초프로그래밍_조교/Progrmming_TA/4주차/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/gounchoi/Desktop/동대생최고운/3학년1학기/기초프로그래밍_조교/Progrmming_TA/5주차/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gounchoi/Desktop/동대생최고운/3학년1학기/기초프로그래밍_조교/Progrmming_TA/4주차/cmake-build-debug/CMakeFiles /Users/gounchoi/Desktop/동대생최고운/3학년1학기/기초프로그래밍_조교/Progrmming_TA/4주차/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gounchoi/Desktop/동대생최고운/3학년1학기/기초프로그래밍_조교/Progrmming_TA/5주차/cmake-build-debug/CMakeFiles /Users/gounchoi/Desktop/동대생최고운/3학년1학기/기초프로그래밍_조교/Progrmming_TA/5주차/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gounchoi/Desktop/동대생최고운/3학년1학기/기초프로그래밍_조교/Progrmming_TA/4주차/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/gounchoi/Desktop/동대생최고운/3학년1학기/기초프로그래밍_조교/Progrmming_TA/5주차/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -111,44 +111,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named 4
+# Target rules for targets named 5
 
 # Build rule for target.
-4 : cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 4
-.PHONY : 4
+5 : cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 5
+.PHONY : 5
 
 # fast build rule for target.
-4/fast:
-	$(MAKE) -f CMakeFiles/4.dir/build.make CMakeFiles/4.dir/build
-.PHONY : 4/fast
+5/fast:
+	$(MAKE) -f CMakeFiles/5.dir/build.make CMakeFiles/5.dir/build
+.PHONY : 5/fast
 
-homework4.o: homework4.c.o
+homework3.o: homework3.c.o
 
-.PHONY : homework4.o
+.PHONY : homework3.o
 
 # target to build an object file
-homework4.c.o:
-	$(MAKE) -f CMakeFiles/4.dir/build.make CMakeFiles/4.dir/homework4.c.o
-.PHONY : homework4.c.o
+homework3.c.o:
+	$(MAKE) -f CMakeFiles/5.dir/build.make CMakeFiles/5.dir/homework3.c.o
+.PHONY : homework3.c.o
 
-homework4.i: homework4.c.i
+homework3.i: homework3.c.i
 
-.PHONY : homework4.i
+.PHONY : homework3.i
 
 # target to preprocess a source file
-homework4.c.i:
-	$(MAKE) -f CMakeFiles/4.dir/build.make CMakeFiles/4.dir/homework4.c.i
-.PHONY : homework4.c.i
+homework3.c.i:
+	$(MAKE) -f CMakeFiles/5.dir/build.make CMakeFiles/5.dir/homework3.c.i
+.PHONY : homework3.c.i
 
-homework4.s: homework4.c.s
+homework3.s: homework3.c.s
 
-.PHONY : homework4.s
+.PHONY : homework3.s
 
 # target to generate assembly for a file
-homework4.c.s:
-	$(MAKE) -f CMakeFiles/4.dir/build.make CMakeFiles/4.dir/homework4.c.s
-.PHONY : homework4.c.s
+homework3.c.s:
+	$(MAKE) -f CMakeFiles/5.dir/build.make CMakeFiles/5.dir/homework3.c.s
+.PHONY : homework3.c.s
 
 # Help Target
 help:
@@ -158,10 +158,10 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
-	@echo "... 4"
-	@echo "... homework4.o"
-	@echo "... homework4.i"
-	@echo "... homework4.s"
+	@echo "... 5"
+	@echo "... homework3.o"
+	@echo "... homework3.i"
+	@echo "... homework3.s"
 .PHONY : help
 
 
