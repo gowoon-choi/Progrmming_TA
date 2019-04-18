@@ -7,7 +7,7 @@ int main() {
     scanf("%d",&num);
 
 
-    for(int i=num; result <= 30; i++){
+    for(int i=num; result <= 500; i++){
         if(i%2 == 0) continue;
         result += i;
     }
