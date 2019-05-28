@@ -57,27 +57,27 @@ include CMakeFiles/lab12.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/lab12.dir/flags.make
 
-CMakeFiles/lab12.dir/test.c.o: CMakeFiles/lab12.dir/flags.make
-CMakeFiles/lab12.dir/test.c.o: /Users/gounchoi/Desktop/동대생최고운/3학년1학기/기초프로그래밍_조교/Progrmming_TA/lab12/test.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gounchoi/Desktop/동대생최고운/3학년1학기/기초프로그래밍_조교/Progrmming_TA/lab12/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lab12.dir/test.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab12.dir/test.c.o   -c /Users/gounchoi/Desktop/동대생최고운/3학년1학기/기초프로그래밍_조교/Progrmming_TA/lab12/test.c
+CMakeFiles/lab12.dir/homework5.c.o: CMakeFiles/lab12.dir/flags.make
+CMakeFiles/lab12.dir/homework5.c.o: /Users/gounchoi/Desktop/동대생최고운/3학년1학기/기초프로그래밍_조교/Progrmming_TA/lab12/homework5.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/gounchoi/Desktop/동대생최고운/3학년1학기/기초프로그래밍_조교/Progrmming_TA/lab12/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/lab12.dir/homework5.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/lab12.dir/homework5.c.o   -c /Users/gounchoi/Desktop/동대생최고운/3학년1학기/기초프로그래밍_조교/Progrmming_TA/lab12/homework5.c
 
-CMakeFiles/lab12.dir/test.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab12.dir/test.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/gounchoi/Desktop/동대생최고운/3학년1학기/기초프로그래밍_조교/Progrmming_TA/lab12/test.c > CMakeFiles/lab12.dir/test.c.i
+CMakeFiles/lab12.dir/homework5.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lab12.dir/homework5.c.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/gounchoi/Desktop/동대생최고운/3학년1학기/기초프로그래밍_조교/Progrmming_TA/lab12/homework5.c > CMakeFiles/lab12.dir/homework5.c.i
 
-CMakeFiles/lab12.dir/test.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab12.dir/test.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/gounchoi/Desktop/동대생최고운/3학년1학기/기초프로그래밍_조교/Progrmming_TA/lab12/test.c -o CMakeFiles/lab12.dir/test.c.s
+CMakeFiles/lab12.dir/homework5.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lab12.dir/homework5.c.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/gounchoi/Desktop/동대생최고운/3학년1학기/기초프로그래밍_조교/Progrmming_TA/lab12/homework5.c -o CMakeFiles/lab12.dir/homework5.c.s
 
 # Object files for target lab12
 lab12_OBJECTS = \
-"CMakeFiles/lab12.dir/test.c.o"
+"CMakeFiles/lab12.dir/homework5.c.o"
 
 # External object files for target lab12
 lab12_EXTERNAL_OBJECTS =
 
-lab12: CMakeFiles/lab12.dir/test.c.o
+lab12: CMakeFiles/lab12.dir/homework5.c.o
 lab12: CMakeFiles/lab12.dir/build.make
 lab12: CMakeFiles/lab12.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/gounchoi/Desktop/동대생최고운/3학년1학기/기초프로그래밍_조교/Progrmming_TA/lab12/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable lab12"

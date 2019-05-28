@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/gounchoi/Desktop/동대생최고운/3학년1학기/기초프로그래밍_조교/Progrmming_TA/lab12/test.c" "/Users/gounchoi/Desktop/동대생최고운/3학년1학기/기초프로그래밍_조교/Progrmming_TA/lab12/cmake-build-debug/CMakeFiles/lab12.dir/test.c.o"
+  "/Users/gounchoi/Desktop/동대생최고운/3학년1학기/기초프로그래밍_조교/Progrmming_TA/lab12/homework5.c" "/Users/gounchoi/Desktop/동대생최고운/3학년1학기/기초프로그래밍_조교/Progrmming_TA/lab12/cmake-build-debug/CMakeFiles/lab12.dir/homework5.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

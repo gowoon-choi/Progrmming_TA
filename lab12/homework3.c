@@ -5,11 +5,13 @@ int main(){
     char str[100];
     gets(str);
 
+    int index = 0;
     char *p = strchr(str,' ');
     if(p != NULL){
-        for(int i=0;i<strlen(str);i++){
-            if(str[i]==' ') continue;
-            else printf("%c",str[i]);
+        printf("%c",str[index++]-32);
+        for(int i =1;i<strlen(str);i++){
+            if(str[index-1] == ' ') printf("%c",str[index++]-32);
+            else printf("%c",str[index++]);
         }
     }
     else{

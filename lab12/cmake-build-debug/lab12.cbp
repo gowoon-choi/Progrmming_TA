@@ -78,7 +78,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/gounchoi/Desktop/동대생최고운/3학년1학기/기초프로그래밍_조교/Progrmming_TA/lab12/test.c">
+		<Unit filename="/Users/gounchoi/Desktop/동대생최고운/3학년1학기/기초프로그래밍_조교/Progrmming_TA/lab12/homework5.c">
 			<Option target="lab12"/>
 		</Unit>
 		<Unit filename="/Users/gounchoi/Desktop/동대생최고운/3학년1학기/기초프로그래밍_조교/Progrmming_TA/lab12/CMakeLists.txt">

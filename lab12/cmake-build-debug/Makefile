@@ -123,32 +123,32 @@ lab12/fast:
 	$(MAKE) -f CMakeFiles/lab12.dir/build.make CMakeFiles/lab12.dir/build
 .PHONY : lab12/fast
 
-test.o: test.c.o
+homework5.o: homework5.c.o
 
-.PHONY : test.o
+.PHONY : homework5.o
 
 # target to build an object file
-test.c.o:
-	$(MAKE) -f CMakeFiles/lab12.dir/build.make CMakeFiles/lab12.dir/test.c.o
-.PHONY : test.c.o
+homework5.c.o:
+	$(MAKE) -f CMakeFiles/lab12.dir/build.make CMakeFiles/lab12.dir/homework5.c.o
+.PHONY : homework5.c.o
 
-test.i: test.c.i
+homework5.i: homework5.c.i
 
-.PHONY : test.i
+.PHONY : homework5.i
 
 # target to preprocess a source file
-test.c.i:
-	$(MAKE) -f CMakeFiles/lab12.dir/build.make CMakeFiles/lab12.dir/test.c.i
-.PHONY : test.c.i
+homework5.c.i:
+	$(MAKE) -f CMakeFiles/lab12.dir/build.make CMakeFiles/lab12.dir/homework5.c.i
+.PHONY : homework5.c.i
 
-test.s: test.c.s
+homework5.s: homework5.c.s
 
-.PHONY : test.s
+.PHONY : homework5.s
 
 # target to generate assembly for a file
-test.c.s:
-	$(MAKE) -f CMakeFiles/lab12.dir/build.make CMakeFiles/lab12.dir/test.c.s
-.PHONY : test.c.s
+homework5.c.s:
+	$(MAKE) -f CMakeFiles/lab12.dir/build.make CMakeFiles/lab12.dir/homework5.c.s
+.PHONY : homework5.c.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... lab12"
-	@echo "... test.o"
-	@echo "... test.i"
-	@echo "... test.s"
+	@echo "... homework5.o"
+	@echo "... homework5.i"
+	@echo "... homework5.s"
 .PHONY : help
 
 
